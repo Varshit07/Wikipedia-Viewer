@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Wikipedia Search Engine to render relevant search results from Wikipedia" />
+  <meta property="og:title" content="Wikipedia Viewer" />
+  <meta property="og:description" content="A Wikipedia Search Engine to render relevant search results from Wikipedia" />
+  <meta property="og:image" content="http://res.cloudinary.com/ddskvkjzs/image/upload/v1512122531/Wikipedia_Viewer_pwdt1t.pngg" />
+  <title>Wikipedia Viewer</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="http://github.com/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Chewy|Fugaz+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1 id = "page-title" class = "text-center">Wikipedia Viewer</h1>
+<div class = "container-fluid">
+  <div class = "row">
+    <div class = "col-xs-2 col-md-4"></div>
+    <div class = "col-xs-8 col-md-4">
+      <div class = "col-xs-2 col-md-4"></div>
+<form id = "query" class = "text-center">
+  <input type = "text" id="search-input" class = "form-control">
+  <br>
+    <button id="search-button" class="btn btn-primary">Search</button>
+  </>
+  &nbsp;
+  <a href = "https://en.wikipedia.org/wiki/Special:Random" target = "_blank"><button id = "lucky-button" type="button" class = "btn btn-primary">I'm Feeling Lucky</button></a>
+    </form>
+    </div>
+    <div class = "col-xs-2 col-md-4"></div>
+    <br>
+  </div>
+</div>
+<br>
+<br>
+<ul id = "output">
+</ul>
+<script src = "script.js"></script>
+</body>
+</html>
